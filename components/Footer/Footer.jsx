@@ -9,13 +9,13 @@ const Footer = () => {
       
 
         {/* Bottom section with links and copyright */}
-        <div className="pt-4 flex flex-col md:flex-row justify-between items-center">
+        <div className="pt-4 flex flex-col md:flex-row justify-between items-center ">
           <div className="flex flex-wrap gap-5 mb-3 md:mb-0 text-sm text-white">
             <Link href="#" className="hover:text-hoverColor transition duration-300">About us</Link>
             <Link href="#" className="hover:text-hoverColor transition duration-300">Contact</Link>
             <Link href="#" className="hover:text-hoverColor transition duration-300">Privacy policy</Link>
             <Link href="#" className="hover:text-hoverColor transition duration-300">Sitemap</Link>
-            <Link href="#" className="hover:text-hoverColor transition duration-300">Terms of Use</Link>
+
           </div>
           <div className="text-white font-poppins font-normal text-[15px]">
             © 2023, All Rights Reserved

@@ -6,7 +6,7 @@ import farmImage from "./../../public/farmImage.png"
 
 import { MdPrecisionManufacturing, MdHandshake } from "react-icons/md";
 import { SlTarget } from "react-icons/sl";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const MidHero = () => {
   return (
@@ -25,7 +25,7 @@ const MidHero = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-12 px-28">
+        <div className="flex flex-col gap-12 px-14 md:px-28">
           {/* list 1 */}
           <div className="flex gap-4">
             <span className="text-2xl text-bgBody">
@@ -69,8 +69,8 @@ const MidHero = () => {
             <p className="font-semibold text-base text-textColors font-sans">
               Get to know more about what we are doing
             </p>
-            <Link href="https://edenwayfoundation.com/" target="_blank" className="bg-bgBody text-white text-[35px] p-1 rounded-full hover:bg-opacity-80 transition-opacity duration-100">
-            <FaArrowRightLong />
+            <Link href="https://edenwayfoundation.com/" target="_blank" className="bg-bgBody text-white text-[35px]  rounded-full hover:bg-opacity-80 transition-opacity duration-100">
+            <IoIosArrowRoundForward  />
             </Link>
           </div>
         </div>

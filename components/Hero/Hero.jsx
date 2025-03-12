@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="text-5xl lg:text-6xl text-white font-semibold leading-tight font-poppins">
           Futuristic Farming Technology For The Future
         </h1>
-        <div className="w-[80%]">
+        <div className="w-full md:w-[80%]">
           <p className="text-xl text-white font-poppins font-normal">
             GAIA: Nurturing Dreams and Empowering Skills, We believe in the
             transformative impact of learning and technology

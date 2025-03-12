@@ -1,6 +1,5 @@
 import Guage from "./Guage"
 import BarChart from "./BarChart"
-import BarChartPractise from "./BarChartPractise.jsx"
 import Map from "./Map"
 
 const Overview = () => {

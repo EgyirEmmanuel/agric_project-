@@ -94,6 +94,13 @@ const Header = () => {
                   </Link>
                   </SignedIn>
                 </li>
+                <li>
+                <SignedOut >
+            <SignInButton>
+              <button  className="bg-bgButton border-none p-2 text-bgBody rounded-full font-poppins font-semibold">Sign in</button>
+            </SignInButton>
+          </SignedOut>
+                </li>
               </ul>
             </div>
           </div>

@@ -90,13 +90,13 @@ const CustomBarChart = () => {
   return (
     <div className="w-full py-5 flex flex-col lg:flex-row gap-6 ">
       {/* Bar chart  */}
-      <div className="w-full lg:w-[70%] relative bg-white p-4 rounded-lg shadow-sm">
+      <div className="w-full lg:w-[70%] relative bg-white  px-0 py-4 rounded-lg shadow-sm">
         <div className="absolute top-1 right-5 flex gap-4 items-center">
-          <div className="flex items-center gap-1">
+          <div className=" items-center gap-1 hidden md:flex">
             <div className="w-4 h-4 bg-barColorOne rounded-full"></div>
             <span className="text-lg text-barToolColor font-normal font-inter">Temperature</span>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="md:flex items-center gap-1 hidden">
             <div className="w-4 h-4 bg-barColorTwo rounded-full"></div>
             <span className="text-lg text-barToolColor font-normal font-inter">Soil Moisture</span>
           </div>

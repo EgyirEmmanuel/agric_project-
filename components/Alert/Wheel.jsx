@@ -8,7 +8,7 @@ const Wheel = () => {
   return (
     <div className="flex items-center justify-center h-[476] p-6 bg-white">
       <div className="relative w-80 h-80 p-6 rounded-md">
-        <p className="absolute top-4 left-4 text-xl font-semibold font-poppins text-black">Active Alerts</p>
+        <p className="absolute top-3 left-10 md:top-4 md:left-4 text-xl font-semibold font-poppins text-black">Active Alerts</p>
         <div className="flex items-center justify-center h-full">
           <div className="relative flex items-center justify-center w-64 h-64">
             <svg className="absolute w-full h-full" viewBox="0 0 100 100">
