@@ -20,8 +20,10 @@ const Header = () => {
     <div className="w-full h-20 bg-bgBody border-b-[1px] border-bgButton">
     <div className="w-full bg-bgBody px-10 md:px-20 mx-auto h-full max-w-screen-2xl flex items-center justify-between">
          {/* LOGO */}
-         <h1 className={`text-2xl text-white font-semibold font-poppins cursor-pointer`}>GAIA Club</h1>
-
+         <Link href='/' className={`text-2xl text-white font-semibold font-poppins cursor-pointer`}>
+         GAIA Club
+         </Link>
+        
           {/* DESKTOP NAVBAR */}
          <div className="hidden md:block ">
           <div className="flex items-center justify-between space-x-10">
@@ -30,10 +32,10 @@ const Header = () => {
               <Link href="/about">About Us</Link>
             </li>
             <li className="hover:text-hoverColor transition-colors duration-100">
-              <Link href="/technology">Technology</Link>
+              <Link href="#">Technology</Link>
             </li>
             <li className="hover:text-hoverColor transition-colors duration-100">
-              <Link href="/contact">Contact</Link>
+              <Link href="#">Contact</Link>
             </li> 
           </ul>
 
@@ -79,10 +81,10 @@ const Header = () => {
                   <Link href="/about">About Us</Link>
                 </li>
                 <li className="hover:text-hoverColor transition-colors duration-100">
-                  <Link href="/technology">Technology</Link>
+                  <Link href="#">Technology</Link>
                 </li>
                 <li className="hover:text-hoverColor transition-colors duration-100">
-                  <Link href="/contact">Contact</Link>
+                  <Link href="#">Contact</Link>
                 </li>
                   <li>
                     <SignedIn>
